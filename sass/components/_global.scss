@@ -1,0 +1,40 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43em;
+  min-width: 320px;
+  color: #757575;
+  background-color: #ffffff;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #212121;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
